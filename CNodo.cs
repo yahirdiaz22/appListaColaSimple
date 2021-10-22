@@ -15,17 +15,16 @@ namespace appListaColaSimple
             get { return dato; }
             set { dato = value; }
         }
-        public CNodo siguente;
+        public CNodo siguiente;
         public CNodo anterior;
 
         public CNodo Siguiente
 
         {
-            get { return siguente; }
-            set { siguente = value; }
+            get { return siguiente; }
+            set { siguiente = value; }
         }
         public CNodo Anterior
-
         {
             get { return anterior; }
             set { anterior = value; }
@@ -34,13 +33,13 @@ namespace appListaColaSimple
         public CNodo()
         {
             dato = 0;
-            siguente = null;
+            siguiente = null;
             anterior = null;
         }
         public CNodo(int d)
         {
             dato = d;
-            siguente = null;
+            siguiente = null;
             anterior = null;
         }
         public override string ToString()
